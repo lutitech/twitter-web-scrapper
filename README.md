@@ -47,8 +47,11 @@ To manually trigger the scraping process, send a GET request to /scraper/scrape.
 Automatically Triggering Scraping
 The application also includes a cron job to automatically trigger the scraping process every hour. This functionality is implemented in the ScraperController using the @nestjs/schedule package. The cron job is configured to run the triggerScrapingAutomatically method every hour.
 
+## Swagger Documentation
+The Swagger documentation for the API endpoints is available at /api. You can explore and test the endpoints using Swagger UI.
+
 Example .env File
-Refer to the example .env file for configuring environment variables
+Refer to the example in .env.example file for configuring environment variables
 
 
 Contributing
